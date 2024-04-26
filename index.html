@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <title>Date Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js" type="module"></script>
     <style>
@@ -10,18 +16,18 @@
       }
 
       .date.selected {
-        background-color: hsl(200, 100%, 50%);
+        background-color: hsl(7, 69%, 67%);
         color: white;
       }
     </style>
   </head>
   <body>
     <div class="date-picker-container">
-      <button class="date-picker-button">October 26th, 2020</button>
+      <button class="date-picker-button"></button>
       <div class="date-picker show">
         <div class="date-picker-header">
           <button class="prev-month-button month-button">&larr;</button>
-          <div class="current-month">October - 2020</div>
+          <div class="current-month"></div>
           <button class="next-month-button month-button">&rarr;</button>
         </div>
         <div class="date-picker-grid-header date-picker-grid">

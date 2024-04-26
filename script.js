@@ -27,7 +27,7 @@ let formattedLastDayOfMonth = format(lastDayOfMonth, "d");
 let prevLastDayOfMonth = endOfMonth(subMonths(lastDayOfMonth, 1));
 let formattedPrevLastDayOfMonth = parseInt(format(prevLastDayOfMonth, "d"));
 let monthCount = 0;
-let defaultFormattedDate = currentDate.getDay();
+let defaultFormattedDate = currentDate.getDate();
 
 let activeCalendarDays = eachDayOfInterval({
   start: firstDayOfMonth,
